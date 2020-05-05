@@ -3,6 +3,7 @@ body {
   padding: 0 60px;
   margin: 0;
   text-align: center;
+  background-color: aquamarine;
 }
 
 .nav {
@@ -11,6 +12,15 @@ body {
   list-style: none;
   text-align: center;
   padding: 20px 0;
+}
+
+.form {
+  display:hidden;
+}
+
+.names>div{
+  display: inline-block;
+  padding: 0 25px;
 }
 
 .nav>li {
