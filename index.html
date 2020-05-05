@@ -5,13 +5,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./style.css">
+  <script src="./main.js"></script>
   <title>The Real Education of Senyo Agawu</title>
   
 </head>
 
 <body>
+  <ul id="nav" class="nav">
+    <li id="repos">repos</li>
+    <li id="videos">videos</li>
+    <li id="about">about</li>
+    <li id="contact">contact</li>
+  </ul>
   <h1 class="main-title">whoami</h1>
-  <p>my name is senyo dzako komla djamfosu agawu addo, and i got ghana in my blood.</p>
+  <p>my name is senyo dzako komla djamfosu addo agawu, and i got ghana in my blood.</p>
   <p>current app academy student, located in jersey. and this is were more shameless stuff about me will go</p>
   <figure>
     <img width=400 src="./assests/youngin-codin.jpg" alt="youngin-codin">
@@ -23,19 +30,47 @@
     <h2 class='sub-title'>some projects</h2>
     <p>this is were my repos will go</p>
   </section>
-  <section>
+  <section >
     <h2 class="sub-title">in my free time...</h2>
     <p>this is were i'll link to videos that maybe i'll start recording</p>
-    <video controls width="300">
+    <video controls width="400">
       <source 
-        src="./assests/20180307_092938.mp4"
+        src="./assests/art-tatum.mp4"
         type="video/mp4">
     </video>
+  </section>
+  <section>
+       <form class="form form--license" id="drivers-license-form">
+         <h1>Contact</h1>
+         <div class="form__field names">Name
+           <label for="first-name">First:</label>
+           <input type="text" class="form__input" id="first-name" placeholder="john" />
+          </div>
+          <div class="form__field">
+            <label for="last-name">Last:</label>
+            <input type="text" class="form__input" id="last-name" placeholder="doe" />
+          </div>
+          <div class="form__field"></div>
+         
+         <div class="form__field">
+           <label for="email">Email Address:</label>
+           <input type="text" class="form__input" id="email" placeholder="name@email.xyz" />
+         </div>
+         <div class="form__field">
+           <label for="subject">Subject:</label>
+           <input type="text" class="form__input" id="subject" placeholder="how great you are" />
+         </div>
+         <div class="form__field">
+           <label for="message">Message:</label>
+           <input type="text" class="form__input" id="message" placeholder="please come work for us?!?!?!" />
+         </div>
+         <button id = "submit" class="form__submit" type="submit">Submit</button>
+       </form>
   </section>
   <section class="contact-info">
     <h2 class="sub-title">contact info</h2>
     <a href="https://github.com/sdkag">my github</a>
-    <p>my email: senyo.k.agawu@gmail.com</p>
+    <p>my email: senyo.k.agawu[at]gmail[dot]com</p>
   </section>
 </body>
 

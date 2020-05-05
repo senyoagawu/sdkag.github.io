@@ -34,9 +34,3 @@ window.addEventListener('DOMContentLoaded', ()=> {
     dealWithNavElements[whichListener]()
   }
 })
-
-// name
-// first last
-// email
-// subject
-// message
